@@ -1,0 +1,5 @@
+proteins = int (input("Введите количетсво белка: "))
+fats = int (input("Введите количетсво жиров: "))
+carbs = int (input("Введите количетсво углеводов: "))
+calories = (proteins * 4) + (fats * 9) + (carbs * 4)
+print (f"Калорийность продукта: {calories} кал.")

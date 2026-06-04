@@ -1,0 +1,5 @@
+print ("Введите реактив")
+subject = input()
+print ("Введите количество")
+amount = input ()
+print (f"Реактив {subject} поступил на склад в количестве {amount} шт.")

@@ -1,0 +1,6 @@
+f = open("output.txt", "w", encoding="utf-8")
+print ("Информация о себе", file=f)
+print ("Софья Леонова (студент)", file=f)
+print ("Добросовестно выполняет все задания по информатике", file=f)
+print ("Люблю картошку", file=f)
+f.close()
