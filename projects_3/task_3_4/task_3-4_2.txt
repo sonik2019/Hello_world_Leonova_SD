@@ -1,0 +1,6 @@
+4.0K	/home/sofka/linux-practice/images
+4.0K	/home/sofka/linux-practice/documents/past
+4.0K	/home/sofka/linux-practice/documents/future
+12K	/home/sofka/linux-practice/documents
+4.0K	/home/sofka/linux-practice/backups
+24K	/home/sofka/linux-practice/
