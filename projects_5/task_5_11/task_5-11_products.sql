@@ -1,0 +1,35 @@
+SELECT *
+FROM products
+WHERE category = 'Электроника';
+
+SELECT *
+FROM products
+WHERE category = 'Одежда' AND name LIKE '%женские%';
+
+SELECT *
+FROM products
+WHERE category = 'Продукты' OR category = 'Книги';
+
+SELECT *
+FROM products
+WHERE NOT category = 'Бытовая техника';
+
+SELECT *
+FROM products
+WHERE category = 'Электроника' 
+   OR category = 'Одежда' 
+   OR category = 'Книги';
+
+SELECT *
+FROM products
+WHERE (category = 'Электроника' AND name LIKE '%Samsung%')
+   OR category = 'Бытовая техника';
+
+SELECT *
+FROM products
+WHERE (
+    (category = 'Электроника' OR category = 'Одежда' OR category = 'Бытовая техника')
+    AND id BETWEEN 1 AND 15
+    AND name NOT LIKE '%Samsung%'
+)
+OR category = 'Книги';

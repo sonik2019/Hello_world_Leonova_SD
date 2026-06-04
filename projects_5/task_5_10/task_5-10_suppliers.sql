@@ -1,0 +1,3 @@
+SELECT DISTINCT name
+FROM suppliers
+ORDER BY name ASC;
